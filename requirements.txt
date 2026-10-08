@@ -1,0 +1,41 @@
+# Requirements
+
+## R (4.4, Bioconductor 3.20)
+
+CRAN packages:
+  data.table, yaml, arrow, matrixStats, ggplot2, patchwork, igraph
+
+Bioconductor packages:
+  TCGAbiolinks (2.34.1)
+  WGCNA (1.74)
+  DGCA (1.0.3)
+  DESeq2 (1.46.0)
+  limma (3.62.2)
+  sesame (1.24.0)
+  genefu (2.38.0)
+  STRINGdb (2.18.0)
+  lionessR (1.20.0)
+  clusterProfiler (4.14.6)
+  estimate (1.0.13)
+  immunedeconv (2.1.4)
+  org.Hs.eg.db
+  TxDb.Hsapiens.UCSC.hg38.knownGene
+  SummarizedExperiment, GenomicRanges, xCell
+
+Some of these are not on CRAN or Bioconductor directly:
+  DGCA is on GitHub (andymckenzie/DGCA) since it was archived from CRAN
+  estimate is on R-Forge
+  immunedeconv is on GitHub (omnideconv/immunedeconv)
+  xCell is a dependency of immunedeconv
+
+## Python (3.11)
+
+  cptac
+  pandas
+  numpy
+  scipy
+  requests
+  pyarrow
+
+Install with:
+  pip install cptac pandas numpy scipy requests pyarrow

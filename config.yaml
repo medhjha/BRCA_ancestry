@@ -1,0 +1,21 @@
+# Example config. Change the paths to match where your data lives.
+# Every script reads paths and parameters from this file.
+
+root: /path/to/brca-ancestry
+data: /path/to/brca-ancestry/data
+results: /path/to/brca-ancestry/results
+
+# primary comparison groups
+cohorts:
+  ancestry_label: genetic
+  discovery: EUR
+  test: AFR
+
+seeds:
+  global: 42
+
+params:
+  perm_preservation: 200
+  matched_n_B: 1000
+  fdr: 0.05
+  edge_min_n_per_group: 100
